@@ -5,7 +5,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
     const greetingMessage = document.getElementById('greetingMessage');
     
     if (name) {
-        greetingMessage.textContent = '¡Hola, ${name}! Bienvenido a la aplicación.';
+        greetingMessage.textContent = `¡Hola, ${name}! Bienvenido a la aplicación.`;
     } else {
         greetingMessage.textContent = 'Por favor, ingresa tu nombre.';
     }
